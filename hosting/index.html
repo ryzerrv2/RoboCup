@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registry form</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+	
+	<ul class="notifications"></ul>
+
+
+	<div class="m-auto w-100 full-h flex justify-center align-center">
+		<div class="wrapper flex w-70 h-70">
+			<div class="w-50 full-h flex-column justify-center align-center bg-blue">
+			
+			</div>
+			<div class="p-5 w-50 full-h flex-column gap-5">
+				<div class="">
+					<h2 class="text-xxl">
+						Welcome
+					</h2>
+					<div class="text-m">
+						Inserisci alcuni dei tuoi dati
+					</div>
+				</div>
+				<form action="" class="h-70 flex-column gap-5" id="registry">
+					<input type="text" name="Nome" id="Nome" placeholder="Nome">
+					<input type="text" name="Cognome" id="Cognome" placeholder="Cognome">
+					<input type="email" name="E-mail" id="E-Mail" placeholder="E-Mail">
+					<input type="text" name="TicketCode" id="TicketCode" placeholder="Codice biglietto segreto">
+					<input type="submit" value="Invia" class="w-25 onRight">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
