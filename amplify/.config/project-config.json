@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "RoboCup",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "",
+      "DistributionDir": "",
+      "BuildCommand": "",
+      "StartCommand": "npm.cmd run-script start"
+    }
+  }
+}

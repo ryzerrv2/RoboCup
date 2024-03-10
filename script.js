@@ -3,6 +3,9 @@ form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
 	const url = `${window.location.href.replace("index.html", "")}/script.php`;
+
+	console.log(url);
+	
 	let UserData = {}; 
 
 
